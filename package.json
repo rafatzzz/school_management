@@ -1,0 +1,48 @@
+{
+  "name": "vuetify-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/font": "^7.0.96",
+    "@mdi/js": "^7.4.47",
+    "apexcharts": "^3.49.1",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.3",
+    "core-js": "^3.34.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "mdi-vue": "^3.0.13",
+    "roboto-fontface": "*",
+    "sweetalert2": "^11.11.1",
+    "vue": "^3.3.0",
+    "vue-chartjs": "^5.3.1",
+    "vue3-apexcharts": "^1.5.3",
+    "vuetify": "^3.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.22.0",
+    "sass": "^1.71.1",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-router": "^0.8.4",
+    "vite": "^5.1.5",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-cli-plugin-i18n": "~2.3.2",
+    "vue-router": "^4.3.2"
+  }
+}
