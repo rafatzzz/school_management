@@ -46,7 +46,7 @@ const router = createRouter({
 // Protect routes
 router.beforeEach((to, from, next) => {
   if (to.meta.requiresAuth && !isAuthenticated()) {
-    next({ name: 'Login', name: 'Signup' });
+    next({ name: 'Login', });
   } else {
     next();
   }

@@ -72,6 +72,7 @@
 import Swal from 'sweetalert2';
 
 export default {
+    // eslint-disable-next-line vue/multi-word-component-names
     name: 'Login',
     data() {
         return {
