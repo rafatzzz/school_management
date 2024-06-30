@@ -1,23 +1,22 @@
 <template>
     <v-app>
-        <v-main class="bg-blue-grey-lighten-5">
+        <v-main class="bg-img">
             <div>
-                <v-img class="mx-auto my-6 " max-width="100px"
-                    src="../assets/Emblem_of_the_Ministry_of_Education,_Youth_and_Sport_(Cambodia).svg.png"></v-img>
+                <v-img class="mx-auto my-2 " max-width="100px" src="../assets/ministrylogo.png"></v-img>
                 <v-card class="mx-auto pa-12 pb-8" elevation="8" max-width="448" rounded="lg">
                     <h3 class="text-center font-custom-2 py-4">ចូលប្រព័ន្ធ</h3>
 
 
                     <!-- Email Input -->
-                    <div class="mb-4">
+                    <div class="mb-3">
                         <div class="text-subtitle-1 text-medium-emphasis my-2">
                             <span class="font-custom">អាខោន</span>
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text">
-                                <i class="mdi mdi-email-outline"></i>
+                                <i class="mdi mdi-account-circle-outline"></i>
                             </span>
-                            <input type="text" class="form-control shadow-none" placeholder="អុីមេល" v-model="email">
+                            <input type="text" class="form-control shadow-none" placeholder="ឈ្មោះ" v-model="email">
                         </div>
 
                     </div>
@@ -54,12 +53,13 @@
 
 
                     <!-- Additional Information -->
-                    <v-alert text="ចំណាំ ៖ ប្រសិនបើមានការចូលគណនីខុសចាប់ពី ៥ ដងឡើងទៅប្រព័ន្ធនិងធ្វើការចាក់សោរយៈពេល ១
-                            ម៉ោងក្រោយការចូលគណនី password." class="my-3" </v-alert>
-                        <!-- Login Button -->
-                        <v-btn class="mb-8" color="blue" size="large" variant="tonal" block @click="attemptLogin">
-                            ចូលគណនី
-                        </v-btn>
+                    <v-alert
+                        text="ចំណាំ ៖ ប្រសិនបើមានការចូលគណនីខុសចាប់ពី ៥ ដងឡើងទៅប្រព័ន្ធនិងធ្វើការចាក់សោរយៈពេល ១ម៉ោងក្រោយការចូលគណនី password."
+                        class="my-3"> </v-alert>
+                    <!-- Login Button -->
+                    <v-btn class="mb-8" color="blue" size="large" variant="tonal" block @click="attemptLogin">
+                        ចូលគណនី
+                    </v-btn>
 
 
                 </v-card>
@@ -140,5 +140,16 @@ export default {
 .font-custom-2 {
     font-family: 'Khmer os moul';
     font-size: 25px;
+}
+
+.bg-img {
+    background-image: url('../assets/background-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

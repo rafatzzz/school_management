@@ -10,7 +10,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 import { useRoute } from 'vue-router';
-import Layout from './components/Layout.vue';
+import Layout from './components/Layout/Layout.vue';
 
 const authenticated = ref(localStorage.getItem('authenticated') === 'true');
 const route = useRoute();

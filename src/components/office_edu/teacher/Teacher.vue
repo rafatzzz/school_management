@@ -3,7 +3,7 @@
     <v-progress-linear v-if="loading" color="primary" indeterminate absolute top width="100%"></v-progress-linear>
     <v-main class="bg-grey-lighten-4">
       <div class="my-3 mx-3">
-        <v-chip prepend-icon="mdi-circle" text="ពត៌មានផ្សេងៗ" color="success"></v-chip>
+        <v-chip prepend-icon="mdi-circle" text="" color="success">{{ $t('navigation.teacher') }}</v-chip>
         <v-divider></v-divider>
       </div>
 

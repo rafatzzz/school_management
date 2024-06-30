@@ -4,12 +4,12 @@
   <v-app>
     <v-main class="bg-grey-lighten-4">
       <div class="my-3 mx-3">
-        <v-chip prepend-icon="mdi-circle" text="គម្រោងផ្សេងៗ" color="success"></v-chip>
+        <v-chip prepend-icon="mdi-circle" color="success"> {{ $t('navigation.planProject') }}</v-chip>
         <v-divider></v-divider>
       </div>
 
       <v-progress-linear v-if="loading" color="primary" indeterminate absolute top width="100%"></v-progress-linear>
-      <div class="card shadow-sm my-3 py-3">
+      <div class="card shadow-sm my-3 py-3 mx-3">
         <div class="text-end row justify-content-center align-items-center">
           <div class="col">
             <div class="input-group mx-3">

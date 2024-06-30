@@ -6,7 +6,7 @@
     <v-main class="bg-grey-lighten-4">
       <v-progress-linear v-if="loading" color="primary" indeterminate absolute top width="100%"></v-progress-linear>
       <div class="my-3 mx-3">
-        <v-chip prepend-icon="mdi-circle" text="ការកំណត់" color="success"></v-chip>
+        <v-chip prepend-icon="mdi-circle" color="success">{{ $t('navigation.setting') }}</v-chip>
         <v-divider></v-divider>
       </div>
       <div class="py-3 px-3">
